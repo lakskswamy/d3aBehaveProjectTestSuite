@@ -1,4 +1,3 @@
-
 Feature: D3A Login
 
   Background: common steps
