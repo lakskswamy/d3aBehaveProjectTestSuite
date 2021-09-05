@@ -1,0 +1,148 @@
+{
+  "uid" : "42f6f1c2005ccb93",
+  "name" : "Create a Simulation for an existing project",
+  "fullName" : "Simulation: Create a Simulation for an existing project",
+  "historyId" : "22abceb897b2fd948df0e04e77cdba20",
+  "time" : {
+    "start" : 1630842843153,
+    "stop" : 1630842865746,
+    "duration" : 22593
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Context' object has no attribute 'browser'\n",
+  "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 70, in new_simulation_visible_validation\n    allure.attach(context.browser.driver.get_screenshot_as_png(),name='screenshot',attachment_type=AttachmentType.PNG)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\runner.py\", line 321, in __getattr__\n    raise AttributeError(msg)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'Context' object has no attribute 'browser'\n",
+    "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 70, in new_simulation_visible_validation\n    allure.attach(context.browser.driver.get_screenshot_as_png(),name='screenshot',attachment_type=AttachmentType.PNG)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\runner.py\", line 321, in __getattr__\n    raise AttributeError(msg)\n",
+    "steps" : [ {
+      "name" : "Given the user logs in with username \"laks.kswamy@gmail.com\" and password \"11-Feb-1995\"",
+      "time" : {
+        "start" : 1630842843167,
+        "stop" : 1630842849085,
+        "duration" : 5918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given the user selects an existing project",
+      "time" : {
+        "start" : 1630842849085,
+        "stop" : 1630842853587,
+        "duration" : 4502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user clicks on new simulation button",
+      "time" : {
+        "start" : 1630842853587,
+        "stop" : 1630842855673,
+        "duration" : 2086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user enters simulation name \"SimulationNameExistingProj\" and description \"SimulationDescriptionExistingProj\"",
+      "time" : {
+        "start" : 1630842855673,
+        "stop" : 1630842856110,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user clicks on Next button",
+      "time" : {
+        "start" : 1630842856111,
+        "stop" : 1630842860178,
+        "duration" : 4067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then a new simulation is visible on projects page under the existing project",
+      "time" : {
+        "start" : 1630842860178,
+        "stop" : 1630842865746,
+        "duration" : 5568
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'Context' object has no attribute 'browser'\n",
+      "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 70, in new_simulation_visible_validation\n    allure.attach(context.browser.driver.get_screenshot_as_png(),name='screenshot',attachment_type=AttachmentType.PNG)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\runner.py\", line 321, in __getattr__\n    raise AttributeError(msg)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Simulation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42f6f1c2005ccb93.json",
+  "parameterValues" : [ ]
+}

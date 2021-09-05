@@ -1,0 +1,157 @@
+{
+  "uid" : "5b257dd6cb441c1f",
+  "name" : "Create a Simulation for a new project",
+  "fullName" : "Simulation: Create a Simulation for a new project",
+  "historyId" : "938299cbd2c7ff149f8c270861479eef",
+  "time" : {
+    "start" : 1630842374452,
+    "stop" : 1630842407866,
+    "duration" : 33414
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the user logs in with username \"laks.kswamy@gmail.com\" and password \"11-Feb-1995\"",
+      "time" : {
+        "start" : 1630842374453,
+        "stop" : 1630842379762,
+        "duration" : 5309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given the user creates a project with Project Name as \"simname\" and description as \"simdescription\"",
+      "time" : {
+        "start" : 1630842379762,
+        "stop" : 1630842392208,
+        "duration" : 12446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user selects on the project",
+      "time" : {
+        "start" : 1630842392208,
+        "stop" : 1630842395306,
+        "duration" : 3098
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user clicks on new simulation button",
+      "time" : {
+        "start" : 1630842395306,
+        "stop" : 1630842397391,
+        "duration" : 2085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user enters simulation name \"sampleSimulationName\" and description \"sampleSimulationDescription\"",
+      "time" : {
+        "start" : 1630842397391,
+        "stop" : 1630842397780,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user clicks on Next button",
+      "time" : {
+        "start" : 1630842397781,
+        "stop" : 1630842401855,
+        "duration" : 4074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then a new simulation is visible on projects page under the project",
+      "time" : {
+        "start" : 1630842401855,
+        "stop" : 1630842407866,
+        "duration" : 6011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Simulation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b257dd6cb441c1f.json",
+  "parameterValues" : [ ]
+}

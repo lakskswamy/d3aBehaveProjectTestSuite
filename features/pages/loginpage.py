@@ -1,20 +1,42 @@
-from selenium.webdriver.common.by import By
 from selenium import webdriver
+import time
 
-class LoginPage():
-    locator_dictionary = {
-        "email": (By.ID, 'email'),
-        "password": (By.ID, 'password'),
-        "login_button": (By.XPATH, '//*[@id="root"]/main/div[2]/div/div/div/form/div[3]/button')
-    }
+emailElt = "email"
+passwordElt = "password"
+loginButton = '//*[@id="root"]/main/div[2]/div/div/div/form/div[3]/button'
+loginErrorMessage = '//*[@id="root"]/main/div[2]/div/div/div/form/span'
+chrome = 'C:\Program Files\ChromeDriver\chromedriver'
+link = "https://www.d3a.io/login"
 
-def __init__(self):
-    self.driver = webdriver.Chrome("C:\Program Files\ChromeDriver\chromedriver"),
+def login_page_attributes(context):
+    context.emailElt = context.driver.find_element_by_id(emailElt)
+    context.passwordElt = context.driver.find_element_by_id(passwordElt)
+    context.loginButton = context.driver.find_element_by_xpath(loginButton)
 
-def login_page(self):
-    self.base_url = "https://www.d3a.io/login"
+def open_browser(context):
+    context.driver = webdriver.Chrome(chrome)
+    context.driver.maximize_window()
 
-def login(self, username="laks.kswamy@gmail.com", password="11-Feb-1995"):
-    self.find_element(*self.locator_dictionary['email']).send_keys(username)
-    self.find_element(*self.locator_dictionary['password']).send_keys(password)
-    self.find_element(*self.locator_dictionary['login_button']).click()
+def open_login_page(context):
+    context.driver.get(link)
+    time.sleep(1)
+
+def enter_credentials(context, email, password):
+    login_page_attributes(context)
+    context.emailElt.send_keys(email)
+    context.passwordElt.send_keys(password)
+
+def click_login_button(context):
+    login_page_attributes(context)
+    context.loginButton.click()
+    time.sleep(1)
+
+def login_error_message(context):
+    return context.driver.find_element_by_xpath(loginErrorMessage).text
+
+def login_steps(context, email, password):
+    open_browser(context)
+    open_login_page(context)
+    login_page_attributes(context)
+    enter_credentials(context, email, password)
+    click_login_button(context)
