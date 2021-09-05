@@ -1,0 +1,135 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Successful login to D3O with valid parameters",
+    "uid" : "c3b54faa36eb56fa",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844327224,
+      "stop" : 1630844336242,
+      "duration" : 9018
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failure login to D3O with invalid password",
+    "uid" : "3df321a595799ede",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844336244,
+      "stop" : 1630844345648,
+      "duration" : 9404
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failure login to D3O with invalid username",
+    "uid" : "bc7f82614a980290",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844345654,
+      "stop" : 1630844359081,
+      "duration" : 13427
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Project with valid elements using project icon",
+    "uid" : "e19d2c7022bb300f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844359087,
+      "stop" : 1630844383685,
+      "duration" : 24598
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Project with valid elements using project url",
+    "uid" : "eddc341f68d4fb1a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844383689,
+      "stop" : 1630844406000,
+      "duration" : 22311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Project with only project name",
+    "uid" : "79c3bef545cacc6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844406004,
+      "stop" : 1630844428157,
+      "duration" : 22153
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Project with no name and description",
+    "uid" : "b28b428316aaa927",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844428159,
+      "stop" : 1630844437827,
+      "duration" : 9668
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Project with a name of an existing project",
+    "uid" : "11eb29f6c1d6de08",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844437833,
+      "stop" : 1630844452236,
+      "duration" : 14403
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Simulation for a new project",
+    "uid" : "957e8d4b6db66b1c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844452244,
+      "stop" : 1630844496301,
+      "duration" : 44057
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create a Simulation for an existing project",
+    "uid" : "f2152022a3f0036d",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630844496304,
+      "stop" : 1630844525804,
+      "duration" : 29500
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

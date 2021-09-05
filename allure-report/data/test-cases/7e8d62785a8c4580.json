@@ -1,0 +1,133 @@
+{
+  "uid" : "7e8d62785a8c4580",
+  "name" : "Successful login to D3O with valid parameters",
+  "fullName" : "D3O Login: Successful login to D3O with valid parameters",
+  "historyId" : "4af201a773ae5593833a54c3e2ea4ca7",
+  "time" : {
+    "start" : 1630839444562,
+    "stop" : 1630839453664,
+    "duration" : 9102
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: __call__() got an unexpected keyword argument 'type'\n",
+  "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3aloginsteps.py\", line 36, in assert_login_successful\n    allure.attach('screenshot1', context.driver.get_screenshot_as_png(), type=allure.attachment_type.PNG)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: __call__() got an unexpected keyword argument 'type'\n",
+    "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3aloginsteps.py\", line 36, in assert_login_successful\n    allure.attach('screenshot1', context.driver.get_screenshot_as_png(), type=allure.attachment_type.PNG)\n",
+    "steps" : [ {
+      "name" : "Given the user launches Chrome Browser",
+      "time" : {
+        "start" : 1630839444563,
+        "stop" : 1630839445715,
+        "duration" : 1152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user opens D3a login page url \"https://www.d3a.io/login\"",
+      "time" : {
+        "start" : 1630839445716,
+        "stop" : 1630839448969,
+        "duration" : 3253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user enters username \"laks.kswamy@gmail.com\" and password \"11-Feb-1995\"",
+      "time" : {
+        "start" : 1630839448970,
+        "stop" : 1630839449266,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user clicks the Login Button",
+      "time" : {
+        "start" : 1630839449266,
+        "stop" : 1630839453367,
+        "duration" : 4101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then the home page opens",
+      "time" : {
+        "start" : 1630839453367,
+        "stop" : 1630839453663,
+        "duration" : 296
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: __call__() got an unexpected keyword argument 'type'\n",
+      "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3aloginsteps.py\", line 36, in assert_login_successful\n    allure.attach('screenshot1', context.driver.get_screenshot_as_png(), type=allure.attachment_type.PNG)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "D3O Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e8d62785a8c4580.json",
+  "parameterValues" : [ ]
+}

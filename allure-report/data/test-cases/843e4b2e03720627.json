@@ -1,0 +1,163 @@
+{
+  "uid" : "843e4b2e03720627",
+  "name" : "Create a Simulation for a new project",
+  "fullName" : "Simulation: Create a Simulation for a new project",
+  "historyId" : "938299cbd2c7ff149f8c270861479eef",
+  "time" : {
+    "start" : 1630841974740,
+    "stop" : 1630841994758,
+    "duration" : 20018
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"saved-project__headline__name__text\">...</span> is not clickable at point (328, 186). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay library-name-modal__overlay\">...</div>\n  (Session info: chrome=93.0.4577.63)\n\n",
+  "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 12, in select_project_call\n    select_project(context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\PycharmProjects\\d3aBehaveProjectTestSuite\\features\\pages\\projectspage.py\", line 68, in select_project\n    context.driver.find_element_by_xpath(existingProject).click()\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"saved-project__headline__name__text\">...</span> is not clickable at point (328, 186). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay library-name-modal__overlay\">...</div>\n  (Session info: chrome=93.0.4577.63)\n\n",
+    "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 12, in select_project_call\n    select_project(context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\PycharmProjects\\d3aBehaveProjectTestSuite\\features\\pages\\projectspage.py\", line 68, in select_project\n    context.driver.find_element_by_xpath(existingProject).click()\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given the user logs in with username \"laks.kswamy@gmail.com\" and password \"11-Feb-1995\"",
+      "time" : {
+        "start" : 1630841974742,
+        "stop" : 1630841980103,
+        "duration" : 5361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given the user creates a project with Project Name as \"simname\" and description as \"simdescription\"",
+      "time" : {
+        "start" : 1630841980103,
+        "stop" : 1630841992623,
+        "duration" : 12520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user selects on the project",
+      "time" : {
+        "start" : 1630841992623,
+        "stop" : 1630841994756,
+        "duration" : 2133
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"saved-project__headline__name__text\">...</span> is not clickable at point (328, 186). Other element would receive the click: <div class=\"ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay library-name-modal__overlay\">...</div>\n  (Session info: chrome=93.0.4577.63)\n\n",
+      "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 12, in select_project_call\n    select_project(context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\PycharmProjects\\d3aBehaveProjectTestSuite\\features\\pages\\projectspage.py\", line 68, in select_project\n    context.driver.find_element_by_xpath(existingProject).click()\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user clicks on new simulation button",
+      "time" : {
+        "start" : 1630841994758,
+        "stop" : 1630841994758,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user enters simulation name \"sampleSimulationName\" and description \"sampleSimulationDescription\"",
+      "time" : {
+        "start" : 1630841994758,
+        "stop" : 1630841994758,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user clicks on Next button",
+      "time" : {
+        "start" : 1630841994758,
+        "stop" : 1630841994758,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then a new simulation is visible on projects page under the project",
+      "time" : {
+        "start" : 1630841994758,
+        "stop" : 1630841994758,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Simulation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "843e4b2e03720627.json",
+  "parameterValues" : [ ]
+}

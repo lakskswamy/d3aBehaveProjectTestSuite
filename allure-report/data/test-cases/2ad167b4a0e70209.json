@@ -1,0 +1,133 @@
+{
+  "uid" : "2ad167b4a0e70209",
+  "name" : "Failure login to D3O with invalid username",
+  "fullName" : "D3O Login: Failure login to D3O with invalid username",
+  "historyId" : "03e76f8e44f01f998bd0d2630950195e",
+  "time" : {
+    "start" : 1630838567980,
+    "stop" : 1630838577055,
+    "duration" : 9075
+  },
+  "status" : "broken",
+  "statusMessage" : "pyscreeze.PyScreezeException: The Pillow package is required to use this function.\n",
+  "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3aloginsteps.py\", line 49, in assert_login_unsuccessful\n    myScreenshot = pyautogui.screenshot()\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\pyscreeze\\__init__.py\", line 143, in wrapper\n    raise PyScreezeException('The Pillow package is required to use this function.')\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "pyscreeze.PyScreezeException: The Pillow package is required to use this function.\n",
+    "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3aloginsteps.py\", line 49, in assert_login_unsuccessful\n    myScreenshot = pyautogui.screenshot()\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\pyscreeze\\__init__.py\", line 143, in wrapper\n    raise PyScreezeException('The Pillow package is required to use this function.')\n",
+    "steps" : [ {
+      "name" : "Given the user launches Chrome Browser",
+      "time" : {
+        "start" : 1630838567981,
+        "stop" : 1630838569277,
+        "duration" : 1296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user opens D3a login page url \"https://www.d3a.io/login\"",
+      "time" : {
+        "start" : 1630838569277,
+        "stop" : 1630838572648,
+        "duration" : 3371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user enters username \"wrongemail1@gmail.com\" and password \"11-Feb-1995\"",
+      "time" : {
+        "start" : 1630838572648,
+        "stop" : 1630838572916,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user clicks the Login Button",
+      "time" : {
+        "start" : 1630838572917,
+        "stop" : 1630838577017,
+        "duration" : 4100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then the home page does not open with invalid username",
+      "time" : {
+        "start" : 1630838577017,
+        "stop" : 1630838577054,
+        "duration" : 37
+      },
+      "status" : "broken",
+      "statusMessage" : "pyscreeze.PyScreezeException: The Pillow package is required to use this function.\n",
+      "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3aloginsteps.py\", line 49, in assert_login_unsuccessful\n    myScreenshot = pyautogui.screenshot()\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\pyscreeze\\__init__.py\", line 143, in wrapper\n    raise PyScreezeException('The Pillow package is required to use this function.')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "D3O Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ad167b4a0e70209.json",
+  "parameterValues" : [ ]
+}
