@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Feature: D3A Login
+=======
+Feature: D3O Login
+>>>>>>> 4af007c891d7264c79d19d29730ae62134fd2dec
 
   Background: common steps
     Given the user launches Chrome Browser
