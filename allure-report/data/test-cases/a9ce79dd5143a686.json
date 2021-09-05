@@ -1,0 +1,148 @@
+{
+  "uid" : "a9ce79dd5143a686",
+  "name" : "Create a Simulation for an existing project",
+  "fullName" : "Simulation: Create a Simulation for an existing project",
+  "historyId" : "22abceb897b2fd948df0e04e77cdba20",
+  "time" : {
+    "start" : 1630842407868,
+    "stop" : 1630842430721,
+    "duration" : 22853
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'allure' has no attribute 'AttachmentType'\n",
+  "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 69, in new_simulation_visible_validation\n    allure.attach(raw, name='screenshot111', attachment_type=allure.AttachmentType.PNG)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'allure' has no attribute 'AttachmentType'\n",
+    "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 69, in new_simulation_visible_validation\n    allure.attach(raw, name='screenshot111', attachment_type=allure.AttachmentType.PNG)\n",
+    "steps" : [ {
+      "name" : "Given the user logs in with username \"laks.kswamy@gmail.com\" and password \"11-Feb-1995\"",
+      "time" : {
+        "start" : 1630842407870,
+        "stop" : 1630842413861,
+        "duration" : 5991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given the user selects an existing project",
+      "time" : {
+        "start" : 1630842413861,
+        "stop" : 1630842418438,
+        "duration" : 4577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When the user clicks on new simulation button",
+      "time" : {
+        "start" : 1630842418438,
+        "stop" : 1630842420534,
+        "duration" : 2096
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user enters simulation name \"SimulationNameExistingProj\" and description \"SimulationDescriptionExistingProj\"",
+      "time" : {
+        "start" : 1630842420534,
+        "stop" : 1630842421043,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the user clicks on Next button",
+      "time" : {
+        "start" : 1630842421043,
+        "stop" : 1630842425098,
+        "duration" : 4055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then a new simulation is visible on projects page under the existing project",
+      "time" : {
+        "start" : 1630842425098,
+        "stop" : 1630842430721,
+        "duration" : 5623
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: module 'allure' has no attribute 'AttachmentType'\n",
+      "statusTrace" : "  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\lakshmi krishnaswamy\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\d3asimulationsteps.py\", line 69, in new_simulation_visible_validation\n    allure.attach(raw, name='screenshot111', attachment_type=allure.AttachmentType.PNG)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Simulation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9ce79dd5143a686.json",
+  "parameterValues" : [ ]
+}
