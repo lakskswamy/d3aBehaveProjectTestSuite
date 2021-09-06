@@ -37,5 +37,13 @@ The automation test report is available at: **allure-report-d3a.netlify.app**
 
 2. Create a Simulation for an existing project
 
+**To execute the project and generate json report run the below command**
+
+behave -f allure_behave.formatter:AllureFormatter -o {path to create json reports}/ {path to feature file folder}/
+
+ **To view HTML report of the execution, run the below command**
+ 
+ allure generate {path to json report folder}/
+
 
 
